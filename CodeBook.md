@@ -19,11 +19,11 @@ The plyr package is required to run the following code.
 library(plyr)
 ```
 Taking a look at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones , we can see that the number of instances that is expected in the body of the dataset is 10299 instances with 561 attributes. Which is to say 561 columns and 10299 rows. If we include the subjects and activity types columns we expect 10299 rows with 563 columns. Using the  ```dim(x)``` function we can easily see what each piece of data looks like. Piecing it together we should expect the following scheme:
-
+```
 [feature]    [subject]          [activitytype]
 X_train.txt  subject_train.txt  y_train.txt
 X_test.txt   subject_test.txt   y_test.txt
-
+```
 The below reads in all the necessary files that will be merged to following the above scheme. 
 ```
 xtest <- read.table("./data/UCI HAR Dataset/test/X_test.txt", sep = '', header = FALSE)
