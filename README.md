@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Course Project
 
-##Description of script: run_analysis.R
+## Description of script: run_analysis.R
 
 The script run_analysis.R is used to create the "tidy.txt" data set using R through a series of transformations using the original dataset: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
