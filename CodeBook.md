@@ -130,6 +130,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
 ## Description of variables
+Prior to normalization, the acceleration signal from the smartphone accelerometer is in standard gravity units 'g' (9.8m/s^2), gyroscope angular velocity unis are radians/seconds. Frequency are in Hertz. The data then is normalized and bounded within domain (-1,1).
 
 Accelerometer used to capture 3-axial linear acceleration. The variables containing "mean" depicts the mean of the acceleration. The variables containing "std" is the standard deviation of the measurement. Variables ending in x, y, z are measurements of the time measured values on the x,y,z axis of a 3 dimensional plane. (Because movements happen in a 3-D space)
 
