@@ -172,7 +172,7 @@ Fast Fourier Transform (FFT) applied to the measurements above to convert into f
 "frequencybodybodygyroscopejerkmagnitudemean()"	"frequencybodybodygyroscopejerkmagnitudestd()"
 ```
 
-Subject 1-3 age 19-48 years 
+Subjects of 30 volunteers numbered 1-30 age 19-48 years 
 ```
 "subject"
 ```
